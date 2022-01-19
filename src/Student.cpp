@@ -1,5 +1,17 @@
 #include "Student.hpp"
 
+Student::Student(std::string fname, std::string lname, std::string g, std::string h, int w, int a, std::string i, std::string major)
+{
+    this-> _first_name = fname;
+    this-> _last_name = lname;
+    this-> _gender = g;
+    this-> _height = h;
+    this-> _weight = w;
+    this-> _age = a;
+    this-> _institution = i;
+    this-> _major = major;
+}
+
 void Student::set_institution(std::string inputInstitution)
 {
     this->_institution = inputInstitution;

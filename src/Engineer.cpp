@@ -1,5 +1,21 @@
 #include "Engineer.hpp"
 
+Engineer::Engineer(std::string fname, std::string lname, std::string g, std::string h, int w, int a, int hour, int salary, std::string t, std::string c, bool mas, bool doc)
+{
+    this-> _first_name = fname;
+    this-> _last_name = lname;
+    this-> _gender = g;
+    this-> _height = h;
+    this-> _weight = w;
+    this-> _age = a;
+    this-> _weekly_hours = hour;
+    this-> _salary = salary;
+    this-> _type = t;
+    this-> _company = c;
+    this-> _has_master = mas;
+    this-> _has_doctorate = doc;
+}
+
 void Engineer::set_type(std::string inputType)
 {
     this->_type = inputType;
@@ -30,13 +46,13 @@ std::string Engineer::get_company(void)
     return _company;
 }
 
-//bool Engineer::get_has_master(void)
-//{
-//    return _has_master
-//};
+bool Engineer::get_has_master(void)
+{
+    return _has_master;
+}
 
-//bool Engineer::get_has_doctorate(void)
-//{
-//    return _has_doctorate
-//};
+bool Engineer::get_has_doctorate(void)
+{
+    return _has_doctorate;
+}
 
