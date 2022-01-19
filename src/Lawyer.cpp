@@ -11,6 +11,7 @@ Lawyer::Lawyer(std::string fname, std::string lname, std::string g, std::string 
     this-> _weekly_hours = hour;
     this-> _salary = salary;
     this-> _law_firm = firm;
+    _person_counter++;
 }
 
 void Lawyer::set_law_firm(std::string inputLawFirm)

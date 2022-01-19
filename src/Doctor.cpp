@@ -11,6 +11,7 @@ Doctor::Doctor(std::string fname, std::string lname, std::string g, std::string 
     this-> _weekly_hours = hour;
     this-> _salary = salary;
     this-> _type = t;
+    _person_counter++;
 }
 
 void Doctor::set_type(std::string inputType)
