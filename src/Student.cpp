@@ -10,6 +10,7 @@ Student::Student(std::string fname, std::string lname, std::string g, std::strin
     this-> _age = a;
     this-> _institution = i;
     this-> _major = major;
+    _person_counter++;
 }
 
 void Student::set_institution(std::string inputInstitution)

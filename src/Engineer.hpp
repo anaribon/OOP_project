@@ -29,4 +29,5 @@ class Engineer : public Worker
         bool get_has_master(void);
 
         bool get_has_doctorate(void);
+
 };

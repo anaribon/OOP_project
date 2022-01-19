@@ -11,7 +11,7 @@ Worker::Worker(std::string fname, std::string lname, std::string g, std::string 
     this->_age = a;
     this->_salary = salary;
     this->_weekly_hours = hours;
-
+    _person_counter++;
 }
 
 void Worker::set_salary(int inputSalary)
