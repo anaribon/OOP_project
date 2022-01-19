@@ -8,6 +8,8 @@ class Lawyer : public Worker
 
     public:
 
+        Lawyer(std::string fname, std::string lname, std::string g, std::string h, int w, int a, int hour, int salary, std::string firm);
+
         void set_law_firm(std::string inputLawFirm);
 
         virtual void talk();

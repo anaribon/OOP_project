@@ -8,6 +8,8 @@ class Student : public Person
 
     public:
         
+        Student(std::string fname, std::string lname, std::string g, std::string h, int w, int a, std::string i, std::string major); 
+
         virtual void talk();
 
         void set_institution(std::string inputInstitution);

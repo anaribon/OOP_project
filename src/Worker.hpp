@@ -8,6 +8,10 @@ class Worker : public Person
 
     public:
 
+        Worker() = default;
+
+        Worker(std::string fname, std::string lname, std::string g, std::string h, int w, int a, int salary, int hours);
+
         virtual void talk();
 
         void set_salary(int inputSalary);

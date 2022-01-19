@@ -9,7 +9,9 @@ class Engineer : public Worker
         bool _has_doctorate;
 
     public:
-    
+
+        Engineer(std::string fname, std::string lname, std::string g, std::string h, int w, int a, int hour, int salary, std::string t, std::string c, bool mas, bool doc);
+
         void set_type(std::string inputType);
 
         void set_company(std::string inputCompany);

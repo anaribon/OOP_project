@@ -1,5 +1,19 @@
 #include "Worker.hpp"
 
+
+Worker::Worker(std::string fname, std::string lname, std::string g, std::string h, int w, int a, int salary, int hours)
+{
+    this-> _first_name = fname;
+    this-> _last_name = lname;
+    this->_gender = g;
+    this->_height = h;
+    this->_weight = w;
+    this->_age = a;
+    this->_salary = salary;
+    this->_weekly_hours = hours;
+
+}
+
 void Worker::set_salary(int inputSalary)
 {
     this->_salary = inputSalary;
