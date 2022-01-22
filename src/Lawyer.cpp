@@ -23,3 +23,10 @@ std::string Lawyer :: get_law_firm(void)
 {
     return _law_firm;
 }
+
+void Lawyer::talk(void)
+{
+    std::cout << "Hello! I am " << this->_first_name << this->_last_name 
+    << "." << "I am a lawyer that works " << this->_weekly_hours << "a week at"
+    << this->_law_firm << "I have a salary of" << this->_salary << std::endl;
+}

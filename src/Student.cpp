@@ -32,3 +32,9 @@ std::string Student::get_major(void)
 {
     return _major;
 }
+
+void Student::talk(void)
+{
+    	std::cout << "Hello! I am" << this->_first_name << this->_last_name
+        << ". I am a student at" << this->_institution << ", studying" << this->_major << std::endl;
+}

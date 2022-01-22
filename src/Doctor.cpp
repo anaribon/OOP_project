@@ -23,3 +23,10 @@ std::string Doctor::get_type(void)
 {
     return _type;
 }
+
+void Doctor::talk(void)
+{
+    std::cout << "Hello! I am " << this->_first_name << this->_last_name 
+    << "." << "I am a " << this->_type << "doctor that works" << this->_weekly_hours 
+    << "a week and I have a salary of" << this->_salary << "." << std::endl;
+}

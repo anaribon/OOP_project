@@ -63,9 +63,7 @@ void Engineer::talk(void)
     << this-> _type << "engineer that works" << this->_weekly_hours << "a week at " << this->_company 
     << "and I have a salary of " << this->_salary << std::endl;
 
-}
+    std::cout << "I have a masters degree: " << this->_has_master << std::endl;
 
-//"Hello! I am first_name last name, I am a type engineer that works weekly_hours a
-//week at company and I have a salary of salary"
-//I have a masters degree: has_masters')
-//I have a doctorate degree: has_doctorate'
+    std::cout << "I have a doctorate degree: " << this->_has_doctorate << std::endl;
+}

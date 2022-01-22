@@ -33,3 +33,11 @@ int Worker::get_weekly_hours(void)
 {
     return _weekly_hours;
 }
+
+void Worker::talk(void)
+{
+    std::cout << "Hello! I am " << this->_first_name << this->_last_name 
+    << "." << "I am a worker that works " << this->_weekly_hours << "a week and I have a salary of"
+     << this->_salary << std::endl;
+}
+
