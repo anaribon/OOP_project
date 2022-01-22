@@ -25,12 +25,12 @@ void Student::set_major(int inputMajor)
 
 std::string Student::get_institution(void)
 {
-    return _institution;
+    return this->_institution;
 }
 
 std::string Student::get_major(void)
 {
-    return _major;
+    return this->_major;
 }
 
 void Student::talk(void)

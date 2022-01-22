@@ -26,12 +26,12 @@ void Worker::set_weekly_hours(int inputWeeklyHours)
 
 int Worker::get_salary(void)
 {
-    return _salary;
+    return this->_salary;
 }
 
 int Worker::get_weekly_hours(void)
 {
-    return _weekly_hours;
+    return this->_weekly_hours;
 }
 
 void Worker::talk(void)

@@ -21,7 +21,7 @@ void Lawyer::set_law_firm(std::string inputLawFirm)
 
 std::string Lawyer :: get_law_firm(void)
 {
-    return _law_firm;
+    return this->_law_firm;
 }
 
 void Lawyer::talk(void)

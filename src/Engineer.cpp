@@ -39,22 +39,22 @@ bool Engineer::set_has_doctorate(bool inputHasDoctorate)
 
 std::string Engineer::get_type(void)
 {
-    return _type;
+    return this->_type;
 }
 
 std::string Engineer::get_company(void)
 {
-    return _company;
+    return this->_company;
 }
 
 bool Engineer::get_has_master(void)
 {
-    return _has_master;
+    return this->_has_master;
 }
 
 bool Engineer::get_has_doctorate(void)
 {
-    return _has_doctorate;
+    return this->_has_doctorate;
 }
 
 void Engineer::talk(void)

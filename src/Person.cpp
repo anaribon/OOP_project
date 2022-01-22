@@ -33,31 +33,31 @@ void Person::set_weight(int inputWeight)
 
 std::string Person::get_first_name(void)
 {
-    return _first_name;
+    return this->_first_name;
 }
 
 std::string Person::get_last_name(void)
 {
-    return _last_name;
+    return this->_last_name;
 }
 
 int Person::get_age(void)
 {
-    return _age;
+    return this->_age;
 }
 
 std::string Person::get_gender(void)
 {
-    return _gender;
+    return this->_gender;
 }
 
 std::string Person::get_height(void)
 {
-    return _height;
+    return this->_height;
 }
 
 int Person::get_weight(void)
 {
-    return _weight;
+    return this->_weight;
 }
 

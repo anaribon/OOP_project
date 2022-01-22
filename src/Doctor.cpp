@@ -21,7 +21,7 @@ void Doctor::set_type(std::string inputType)
 
 std::string Doctor::get_type(void)
 {
-    return _type;
+    return this->_type;
 }
 
 void Doctor::talk(void)
